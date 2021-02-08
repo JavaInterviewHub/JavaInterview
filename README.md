@@ -1,3 +1,148 @@
+      * [Java基础](#java基础)
+            * [1.说下面向对象四大特性](#1说下面向对象四大特性)
+            * [2.抽象类和接口（Java7）的区别](#2抽象类和接口java7的区别)
+            * [3.Java 8的接口新增了哪些特性？](#3java-8的接口新增了哪些特性)
+            * [4.重写和重载的区别](#4重写和重载的区别)
+            * [5.ArrayList和LinkedList有什么区别？](#5arraylist和linkedlist有什么区别)
+            * [6.HashMap是怎么实现的？](#6hashmap是怎么实现的)
+            * [7.HashMap在Java7和Java8中的实现有什么不同？](#7hashmap在java7和java8中的实现有什么不同)
+            * [8.HashMap有时候会死循环，你知道是什么原因吗？](#8hashmap有时候会死循环你知道是什么原因吗)
+            * [9.ConcurrentHashMap是怎么实现的？](#9concurrenthashmap是怎么实现的)
+            * [10.静态代理和动态代理的区别](#10静态代理和动态代理的区别)
+            * [11.JDK动态代理和CGLIB动态代理的区别](#11jdk动态代理和cglib动态代理的区别)
+      * [Java多线程](#java多线程)
+            * [1.说说synchronized的实现原理](#1说说synchronized的实现原理)
+            * [2.ReentrantLock与synchronized的区别](#2reentrantlock与synchronized的区别)
+            * [3.ReentrantLock实现原理](#3reentrantlock实现原理)
+            * [4.Java原子类AtomicInteger实现原理](#4java原子类atomicinteger实现原理)
+            * [5.Java线程池实现原理](#5java线程池实现原理)
+            * [6.ThreadLocal实现原理](#6threadlocal实现原理)
+            * [7.InheritableThreadLocal原理知道吗？](#7inheritablethreadlocal原理知道吗)
+            * [8.说一下synchronized锁升级过程](#8说一下synchronized锁升级过程)
+            * [9.了解过什么是“伪共享”吗？](#9了解过什么是伪共享吗)
+            * [10.“伪共享”出现的原因是什么？](#10伪共享出现的原因是什么)
+            * [11.如何避免“伪共享”？](#11如何避免伪共享)
+            * [12.Java里的线程有哪些状态？](#12java里的线程有哪些状态)
+            * [13.什么是悲观锁？什么是乐观锁？](#13什么是悲观锁什么是乐观锁)
+            * [14.怎么停止一个运行中的线程？](#14怎么停止一个运行中的线程)
+            * [15.说一下你对volatile的理解？](#15说一下你对volatile的理解)
+      * [Java虚拟机](#java虚拟机)
+            * [说一下JVM的内存结构？](#说一下jvm的内存结构)
+            * [栈帧里面包含哪些东西？](#栈帧里面包含哪些东西)
+            * [程序计数器有什么作用？](#程序计数器有什么作用)
+            * [字符串常量存放在哪个区域？](#字符串常量存放在哪个区域)
+            * [你熟悉哪些垃圾收集算法？](#你熟悉哪些垃圾收集算法)
+            * [Java里有哪些引用类型？](#java里有哪些引用类型)
+            * [JVM怎么判断一个对象是不是要回收？](#jvm怎么判断一个对象是不是要回收)
+            * [GC Roots 有哪些？](#gc-roots-有哪些)
+            * [你知道哪些GC类型？](#你知道哪些gc类型)
+            * [对象都是优先分配在年轻代上的吗？](#对象都是优先分配在年轻代上的吗)
+            * [你了解过哪些垃圾收集器？](#你了解过哪些垃圾收集器)
+            * [说说CMS垃圾收集器的工作原理](#说说cms垃圾收集器的工作原理)
+            * [说说G1垃圾收集器的工作原理](#说说g1垃圾收集器的工作原理)
+            * [说说ZGC垃圾收集器的工作原理](#说说zgc垃圾收集器的工作原理)
+            * [ZGC收集器中的染色指针有什么用？](#zgc收集器中的染色指针有什么用)
+            * [说说类加载的过程](#说说类加载的过程)
+            * [说下有哪些类加载器？](#说下有哪些类加载器)
+            * [什么是双亲委派机制？](#什么是双亲委派机制)
+            * [双亲委派机制可以被违背吗？请举例说明。](#双亲委派机制可以被违背吗请举例说明)
+            * [Tomcat是怎么打破双亲委派机制的呢？](#tomcat是怎么打破双亲委派机制的呢)
+            * [Java对象的布局了解过吗？](#java对象的布局了解过吗)
+      * [MySQL](#mysql)
+            * [了解过哪些存储引擎？各有什么优缺点？](#了解过哪些存储引擎各有什么优缺点)
+            * [说一下什么是事务的ACID属性吧](#说一下什么是事务的acid属性吧)
+            * [事务的隔离级别了解过吗？](#事务的隔离级别了解过吗)
+            * [说说InnoDB的索引原理](#说说innodb的索引原理)
+            * [说说InnoDB的MVCC机制](#说说innodb的mvcc机制)
+            * [有了解过“回表”的概念吗？什么情况下会出现“回表”？](#有了解过回表的概念吗什么情况下会出现回表)
+            * [MySQL索引的类型](#mysql索引的类型)
+            * [有做过MySQL的索引优化吗](#有做过mysql的索引优化吗)
+            * [什么是聚簇索引？](#什么是聚簇索引)
+            * [InnoDB有聚簇索引吗？MyIsam呢？](#innodb有聚簇索引吗myisam呢)
+            * [MyIsam的数据是怎么存储的？](#myisam的数据是怎么存储的)
+            * [InnoDB的数据是怎么存储的？](#innodb的数据是怎么存储的)
+            * [InnoDB主键索引跟非主键索引在数据存储上的差异](#innodb主键索引跟非主键索引在数据存储上的差异)
+            * [InnoDB删除某条记录后，内部会怎么处理？](#innodb删除某条记录后内部会怎么处理)
+            * [InnoDB如果没有设置主键的话，它内部会怎么处理？](#innodb如果没有设置主键的话它内部会怎么处理)
+            * [为什么InnoDB一定会生成主键？](#为什么innodb一定会生成主键)
+            * [MySQL分库分表了解过吗？](#mysql分库分表了解过吗)
+            * [MySQL的redo日志和undo日志分别有什么用？](#mysql的redo日志和undo日志分别有什么用)
+            * [MySQL的redo日志的刷盘时机](#mysql的redo日志的刷盘时机)
+            * [MySQL有哪些锁？以及各种锁的作用？](#mysql有哪些锁以及各种锁的作用)
+      * [Redis](#redis)
+            * [Redis有哪些数据结构？](#redis有哪些数据结构)
+            * [Redis为什么那么快？](#redis为什么那么快)
+            * [Redis如何实现分布式锁？](#redis如何实现分布式锁)
+            * [Redis是单线程还是多线程？](#redis是单线程还是多线程)
+            * [缓存失效？缓存穿透？缓存雪崩？缓存并发？](#缓存失效缓存穿透缓存雪崩缓存并发)
+            * [Redis中的热key怎么处理？](#redis中的热key怎么处理)
+            * [Redis中的大key怎么处理？](#redis中的大key怎么处理)
+            * [使用Redis统计网站的UV，应该怎么做？](#使用redis统计网站的uv应该怎么做)
+            * [Redis事务机制了解过吗？](#redis事务机制了解过吗)
+            * [Redis key的淘汰策略有哪些？](#redis-key的淘汰策略有哪些)
+            * [Redis在什么情况下会触发key的回收？](#redis在什么情况下会触发key的回收)
+            * [Redis的持久化了解过吗？](#redis的持久化了解过吗)
+            * [Redis在集群种查找key的时候，是怎么定位到具体节点的？](#redis在集群种查找key的时候是怎么定位到具体节点的)
+            * [Redis集群各个节点之间是怎么保持数据一致性的？](#redis集群各个节点之间是怎么保持数据一致性的)
+            * [用Redis做延时队列，具体应该怎么实现？](#用redis做延时队列具体应该怎么实现)
+            * [Redis String的内部编码有哪些？](#redis-string的内部编码有哪些)
+      * [Spring](#spring)
+            * [Spring是怎么解决循环依赖的？](#spring是怎么解决循环依赖的)
+            * [Spring Boot手动装配有哪几种方式？](#spring-boot手动装配有哪几种方式)
+            * [Spring Boot自动配置原理](#spring-boot自动配置原理)
+      * [Netty](#netty)
+            * [你了解过哪些IO模型？](#你了解过哪些io模型)
+            * [什么是Reactor模型？Reactor的3种版本都知道吗？](#什么是reactor模型reactor的3种版本都知道吗)
+            * [了解过粘包拆包吗？为什么会出现粘包拆包？怎么处理粘包拆包？](#了解过粘包拆包吗为什么会出现粘包拆包怎么处理粘包拆包)
+            * [UDP协议会有粘包拆包的问题吗？为什么？](#udp协议会有粘包拆包的问题吗为什么)
+      * [微服务](#微服务)
+            * [微服务有哪些优缺点？](#微服务有哪些优缺点)
+            * [作为注册中心，Zookeeper和Eureka有什么区别？](#作为注册中心zookeeper和eureka有什么区别)
+            * [Service Mesh了解过吗？](#service-mesh了解过吗)
+      * [Zookeeper](#zookeeper)
+            * [Zookeeper有哪些节点类型？](#zookeeper有哪些节点类型)
+            * [了解过Zookeeper的ZAB协议吗？](#了解过zookeeper的zab协议吗)
+            * [Zookeeper怎么实现分布式锁？](#zookeeper怎么实现分布式锁)
+            * [Zookeeper是怎么保证数据一致性的？](#zookeeper是怎么保证数据一致性的)
+            * [Zookeeper Leader选举过程是怎样的？](#zookeeper-leader选举过程是怎样的)
+            * [Zookeeper怎么实现服务注册？](#zookeeper怎么实现服务注册)
+      * [消息队列](#消息队列)
+            * [消息队列有哪些应用场景？](#消息队列有哪些应用场景)
+            * [消息队列的弊端有哪些？](#消息队列的弊端有哪些)
+            * [使用消息队列，怎么确保消息不丢失？](#使用消息队列怎么确保消息不丢失)
+            * [使用消息队列，如果处理重复消息？](#使用消息队列如果处理重复消息)
+            * [Kafka的消息是有序的吗？如果保证Kafka消息的顺序性？](#kafka的消息是有序的吗如果保证kafka消息的顺序性)
+      * [计算机网络](#计算机网络)
+            * [说下TCP三次握手的过程](#说下tcp三次握手的过程)
+            * [TCP为什么需要3次握手](#tcp为什么需要3次握手)
+            * [TCP为什么需要4次挥手](#tcp为什么需要4次挥手)
+            * [TCP time_wait状态是主动断开方才有，还是被动断开方才有？还是两边都有？](#tcp-time_wait状态是主动断开方才有还是被动断开方才有还是两边都有)
+            * [TCP的keepalive机制了解过吗？](#tcp的keepalive机制了解过吗)
+            * [HTTP的keepalive和TCP的keepalive，有什么区别？](#http的keepalive和tcp的keepalive有什么区别)
+            * [TCP与UDP的区别？](#tcp与udp的区别)
+            * [简述 HTTP1.0/1.1/2.0 的区别](#简述-http101120-的区别)
+            * [HTTPS的原理了解过吗？](#https的原理了解过吗)
+            * [TCP里Nagle算法了解过吗？可以禁用吗？在Java里怎么禁用？](#tcp里nagle算法了解过吗可以禁用吗在java里怎么禁用)
+            * [HTTP协议为什么无法实现服务端推送？](#http协议为什么无法实现服务端推送)
+            * [websocket协议升级过程了解过吗？](#websocket协议升级过程了解过吗)
+      * [数据结构与算法](#数据结构与算法)
+            * [说下你熟悉的排序算法](#说下你熟悉的排序算法)
+            * [布隆过滤器了解过吗？](#布隆过滤器了解过吗)
+            * [一致性hash算法了解过吗？](#一致性hash算法了解过吗)
+      * [设计模式](#设计模式)
+            * [Java怎么实现单例模式？](#java怎么实现单例模式)
+            * [什么是代理模式？什么是动态代理？Java中动态代理有哪些实现方式？](#什么是代理模式什么是动态代理java中动态代理有哪些实现方式)
+            * [什么是模板方法模式？试举例说明。](#什么是模板方法模式试举例说明)
+      * [分布式](#分布式)
+            * [分布式id如何生成？](#分布式id如何生成)
+            * [雪花算法了解过吗？](#雪花算法了解过吗)
+            * [什么是CAP定理？](#什么是cap定理)
+            * [分布式事务了解过吗？](#分布式事务了解过吗)
+            * [什么是二阶段提交（2PC）？什么是三阶段提交（3PC）？](#什么是二阶段提交2pc什么是三阶段提交3pc)
+            * [TCC了解过吗？](#tcc了解过吗)
+            * [Paxos算法了解过吗？](#paxos算法了解过吗)
+            * [Zookeeper的Zab协议了解过吗？](#zookeeper的zab协议了解过吗)
+            * [知道什么是Gossip协议吗？](#知道什么是gossip协议吗)
 
 
 ## Java基础
@@ -754,131 +899,4 @@ TCP协议是一种面向连接的、可靠的、基于字节流的运输层通�
 
 详见：https://blog.csdn.net/chrisnotfound/article/details/80111559https://blog.csdn.net/chrisnotfound/article/details/80111559
 
-#### HTTP的keepalive和TCP的keepalive，有什么区别？
-
-HTTP协议的Keep-Alive意图在于TCP连接复用，在同一个TCP连接上进行多次HTTP请求与响应数据的传输；TCP的Keepalive机制意图在于探测连接的对端是否存活。
-
-#### TCP与UDP的区别？
-
-详见：https://www.cnblogs.com/fundebug/p/differences-of-tcp-and-udp.html
-
-#### 简述 HTTP1.0/1.1/2.0 的区别
-
-* HTTP 1.0
-HTTP 1.0 是在 1996 年引入的，从那时开始，它的普及率就达到了惊人的效果。
-HTTP 1.0 仅仅提供了最基本的认证，这时候用户名和密码还未经加密，因此很容易收到窥探。
-HTTP 1.0 被设计用来使用短链接，即每次发送数据都会经过 TCP 的三次握手和四次挥手，效率比较低。
-HTTP 1.0 只使用 header 中的 If-Modified-Since 和 Expires 作为缓存失效的标准。
-HTTP 1.0 不支持断点续传，也就是说，每次都会传送全部的页面和数据。
-HTTP 1.0 认为每台计算机只能绑定一个 IP，所以请求消息中的 URL 并没有传递主机名（hostname）。
-
-* HTTP 1.1
-HTTP 1.1 是 HTTP 1.0 开发三年后出现的，也就是 1999 年，它做出了以下方面的变化
-HTTP 1.1 使用了摘要算法来进行身份验证
-HTTP 1.1 默认使用长连接，长连接就是只需一次建立就可以传输多次数据，传输完成后，只需要一次切断连接即可。长连接的连接时长可以通过请求头中的 keep-alive 来设置
-HTTP 1.1 中新增加了 E-tag，If-Unmodified-Since, If-Match, If-None-Match 等缓存控制标头来控制缓存失效。
-HTTP 1.1 支持断点续传，通过使用请求头中的 Range 来实现。
-HTTP 1.1 使用了虚拟网络，在一台物理服务器上可以存在多个虚拟主机（Multi-homed Web Servers），并且它们共享一个IP地址。
-
-* HTTP 2.0
-HTTP 2.0 是 2015 年开发出来的标准，它主要做的改变如下
-头部压缩，由于 HTTP 1.1 经常会出现 User-Agent、Cookie、Accept、Server、Range 等字段可能会占用几百甚至几千字节，而 Body 却经常只有几十字节，所以导致头部偏重。HTTP 2.0 使用 HPACK 算法进行压缩。
-二进制格式，HTTP 2.0 使用了更加靠近 TCP/IP 的二进制格式，而抛弃了 ASCII 码，提升了解析效率
-强化安全，由于安全已经成为重中之重，所以 HTTP2.0 一般都跑在 HTTPS 上。
-多路复用，即每一个请求都是是用作连接共享。一个请求对应一个id，这样一个连接上可以有多个请求。
-
-#### HTTPS的原理了解过吗？
-
-详见：https://segmentfault.com/a/1190000018992153
-
-#### TCP里Nagle算法了解过吗？可以禁用吗？在Java里怎么禁用？
-
-详见：https://blog.csdn.net/wdscq1234/article/details/52432095
-可以禁用。
-在Java里可以通过设置socket里的TcpNoDelay选项，来禁用Nagle算法。
-
-#### HTTP协议为什么无法实现服务端推送？
-
-HTTP协议是建立在TCP协议之上的应用层协议，而TCP协议本身是面向连接、可靠的、支持双向的传输层协议，因此理论上任何一种建立在TCP协议之上的应用层协议都是支持服务端推送的。
-那为什么我们不使用HTTP协议实现服务端推送呢？这其实不是HTTP协议本身的问题，而是HTTP客户端跟服务端实现的问题。
-因为大多数的HTTP客户端只实现了响应报文的解析，没有实现请求报文的解析，这意味着，及时服务端给客户端发送了请求报文（推送数据）了，客户端也解析不了，所以也就没办法做到服务端推送了。
-解决的方式也很简单，改造客户端，让他也支持请求报文的解析就行了，这样服务端就可以给客户端发送请求报文，实现服务端推送了。
-但是这样改造的成本太大了，再加上HTTP1.1是文本协议，本身效率并不高，因此我们一般使用其他应用层协议来实现服务端推送，而不使用HTTP协议。
-
-#### websocket协议升级过程了解过吗？
-
-详见：https://mp.weixin.qq.com/s/aolwd8SYib6GD3xAnrxSEQ
-
-## 数据结构与算法
-
-#### 说下你熟悉的排序算法
-
-详见：https://www.cnblogs.com/onepixel/articles/7674659.html
-
-#### 布隆过滤器了解过吗？
-
-详见：https://mp.weixin.qq.com/s/VGeOe4DsZmjkkJ6Ovhf8jQ
-
-#### 一致性hash算法了解过吗？
-
-详见：https://mp.weixin.qq.com/s/bCH-aU8cKS3uT6PwRYNJtA
-
-## 设计模式
-
-#### Java怎么实现单例模式？
-
-详见：https://mp.weixin.qq.com/s/3G3OdsD-bhqUfVW4ySkq5Q
-
-#### 什么是代理模式？什么是动态代理？Java中动态代理有哪些实现方式？
-
-详见：https://www.cnblogs.com/qlqwjy/p/7550609.html
-
-#### 什么是模板方法模式？试举例说明。
-
-详见：https://www.cnblogs.com/adamjwh/p/10919149.html
-
-## 分布式
-
-#### 分布式id如何生成？
-
-详见：https://mp.weixin.qq.com/s/eakphQDWKrsUnIwTj8zMQA
-
-#### 雪花算法了解过吗？
-
-雪花算法生成的是Long类型的ID，一个Long类型占8个字节，每个字节占8比特，也就是说一个Long类型占64个比特。
-雪花ID组成结构：正数位（占1比特）+ 时间戳（占41比特）+ 机器ID（占5比特）+ 数据中心（占5比特）+ 自增值（占12比特），总共64比特组成的一个Long类型。
-第一个bit位（1bit）：Java中long的最高位是符号位代表正负，正数是0，负数是1，一般生成ID都为正数，所以默认为0。
-时间戳部分（41bit）：毫秒级的时间，不建议存当前时间戳，而是用（当前时间戳 - 固定开始时间戳）的差值，可以使产生的ID从更小的值开始；41位的时间戳可以使用69年，(1L << 41) / (1000L * 60 * 60 * 24 * 365) = 69年
-工作机器id（10bit）：也被叫做workId，这个可以灵活配置，机房或者机器号组合都可以。
-序列号部分（12bit），自增值支持同一毫秒内同一个节点可以生成4096个ID
-
-#### 什么是CAP定理？
-
-详见：http://www.ruanyifeng.com/blog/2018/07/cap.html
-
-#### 分布式事务了解过吗？
-
-详见：https://mp.weixin.qq.com/s/amuBimPo7lnfsfo5Pyzc-w
-
-#### 什么是二阶段提交（2PC）？什么是三阶段提交（3PC）？
-
-详见：https://mp.weixin.qq.com/s/amuBimPo7lnfsfo5Pyzc-w
-
-#### TCC了解过吗？
-
-详见：https://mp.weixin.qq.com/s/amuBimPo7lnfsfo5Pyzc-w
-
-#### Paxos算法了解过吗？
-
-详见：https://blog.csdn.net/westbrookliu/article/details/99713365
-
-#### Zookeeper的Zab协议了解过吗？
-
-详见：https://blog.csdn.net/liuchang19950703/article/details/111406622
-
-#### 知道什么是Gossip协议吗？
-
-详见：https://mp.weixin.qq.com/s/dW0I29Sw86lU0qHpxyhdmw
-
-
-
+#### HTTP的keepalive和TCP的keepalive，
