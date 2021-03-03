@@ -1,3 +1,30 @@
+## RabbitMQ
+
+
+* [1.什么是RabbitMQ？为什么使用RabbitMQ？](#1什么是rabbitmq为什么使用rabbitmq)
+* [2.RabbitMQ有什么优缺点？](#2rabbitmq有什么优缺点)
+* [3.什么是元数据？元数据分为哪些类型？包括哪些内容？与cluster相关的元数据有哪些？元数据是如何保存的？元数据在cluster中是如何分布的？](#3什么是元数据元数据分为哪些类型包括哪些内容与cluster相关的元数据有哪些元数据是如何保存的元数据在cluster中是如何分布的)
+* [4.在单node系统和多node构成的cluster系统中声明queue、exchange，以及进行binding会有什么不同？](#4在单node系统和多node构成的cluster系统中声明queueexchange以及进行binding会有什么不同)
+* [5.客户端连接到cluster中的任意node上是否都能正常工作？](#5客户端连接到cluster中的任意node上是否都能正常工作)
+* [6.若cluster中拥有某个queue的owner node失效了，且该queue 被声明具有durable属性，是否能够成功从其他node上重新声明该 queue ？](#6若cluster中拥有某个queue的owner-node失效了且该queue-被声明具有durable属性是否能够成功从其他node上重新声明该-queue-)
+* [7.RabbitMQ 的消息是怎么发送的？](#7rabbitmq-的消息是怎么发送的)
+* [8.RabbitMQ 怎么避免消息丢失？](#8rabbitmq-怎么避免消息丢失)
+* [9.RabbitMQ的使用场景有哪些?](#9rabbitmq的使用场景有哪些)
+* [10.RabbitMQ有哪些重要的角色?](#10rabbitmq有哪些重要的角色)
+* [11.如何确保消息正确地发送至RabbitMQ?如何确保消息接收方消费了消息?](#11如何确保消息正确地发送至rabbitmq如何确保消息接收方消费了消息)
+* [12.要保证消息持久化成功的条件有哪些?](#12要保证消息持久化成功的条件有哪些)
+* [13.RabbitMQ 有几种广播类型?](#13rabbitmq-有几种广播类型)
+* [14.vhost 是什么？起什么作用？](#14vhost-是什么起什么作用)
+* [15.消息基于什么传输？](#15消息基于什么传输)
+* [16.消息如何分发？](#16消息如何分发)
+* [17.消息怎么路由？](#17消息怎么路由)
+* [18.如何确保消息接收方消费了消息？](#18如何确保消息接收方消费了消息)
+* [19.如何避免消息重复投递或重复消费？](#19如何避免消息重复投递或重复消费)
+* [20.死信队列和延迟队列的使用](#20死信队列和延迟队列的使用)
+* [参考链接：](#参考链接)
+
+
+
 #### 1.什么是RabbitMQ？为什么使用RabbitMQ？
 
 RabbitMQ是一款开源的，Erlang编写的，基于AMQP协议的，消息中间件；
