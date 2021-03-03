@@ -1,5 +1,5 @@
 * [1.说下面向对象四大特性](#1说下面向对象四大特性)
-* [2.Java语言有些特点](#2.Java语言有哪些特点)
+* [2.Java语言有些特点](#2Java语言有哪些特点)
 * [3.什么是Java程序的主类？应用程序和小程序的主类有何不同？](#3什么是java程序的主类应用程序和小程序的主类有何不同)
 * [4.<strong>访问修饰符public,private,protected,以及不写（默认）时的区别？</strong>](#4访问修饰符publicprivateprotected以及不写默认时的区别)
 * [5.<strong>float f=3.4;是否正确？</strong>](#5float-f34是否正确)
