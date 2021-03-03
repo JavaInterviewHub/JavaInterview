@@ -1,5 +1,5 @@
-* [Java基础](#java基础)
-   * [1.说下面向对象四大特性](#1说下面向对象四大特性)
+* [Java基础](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md)
+   * [1.说下面向对象四大特性](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md#1说下面向对象四大特性)
    * [2.抽象类和接口（Java7）的区别](#2抽象类和接口java7的区别)
    * [3.Java 8的接口新增了哪些特性？](#3java-8的接口新增了哪些特性)
    * [4.重写和重载的区别](#4重写和重载的区别)
