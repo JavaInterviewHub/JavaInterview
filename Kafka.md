@@ -1,3 +1,42 @@
+## Kafka
+
+* [1.为什么要使用 kafka？为什么要使用消息队列？](#1为什么要使用-kafka为什么要使用消息队列)
+* [2.Kafka中的ISR、AR又代表什么？ISR的伸缩又指什么？](#2kafka中的israr又代表什么isr的伸缩又指什么)
+* [3.kafka中的broker 是干什么的？](#3kafka中的broker-是干什么的)
+* [4.kafka中的 zookeeper 起到什么作用？可以不用zookeeper么？](#4kafka中的-zookeeper-起到什么作用可以不用zookeeper么)
+* [5.kafka follower如何与leader同步数据？](#5kafka-follower如何与leader同步数据)
+* [6.什么情况下一个 broker 会从 ISR 中被踢出去？](#6什么情况下一个-broker-会从-isr-中被踢出去)
+* [7.kafka 为什么那么快？](#7kafka-为什么那么快)
+* [8.kafka producer如何优化打入速度？](#8kafka-producer如何优化打入速度)
+* [9.kafka producer 打数据，ack  为 0， 1， -1 的时候代表啥， 设置 -1 的时候，什么情况下，leader 会认为一条消息 commit 了](#9kafka-producer-打数据ack--为-0-1--1-的时候代表啥-设置--1-的时候什么情况下leader-会认为一条消息-commit-了)
+* [10.kafka  unclean 配置代表啥？会对 spark streaming 消费有什么影响？](#10kafka--unclean-配置代表啥会对-spark-streaming-消费有什么影响)
+* [11.如果leader crash时，ISR为空怎么办？](#11如果leader-crash时isr为空怎么办)
+* [12.kafka的message格式是什么样的？](#12kafka的message格式是什么样的)
+* [13.kafka中consumer group 是什么概念？](#13kafka中consumer-group-是什么概念)
+* [14.Kafka中的消息是否会丢失和重复消费？](#14kafka中的消息是否会丢失和重复消费)
+* [15.为什么Kafka不支持读写分离？](#15为什么kafka不支持读写分离)
+* [16.Kafka中是怎么体现消息顺序性的？](#16kafka中是怎么体现消息顺序性的)
+* [17.kafka如何实现延迟队列？](#17kafka如何实现延迟队列)
+* [18.什么是消费者组?](#18什么是消费者组)
+* [19.解释下 Kafka 中位移(offset)的作用。](#19解释下-kafka-中位移offset的作用)
+* [20.阐述下 Kafka 中的领导者副本(Leader Replica)和追随者副本 (Follower Replica)的区别。](#20阐述下-kafka-中的领导者副本leader-replica和追随者副本-follower-replica的区别)
+* [21.如何设置 Kafka 能接收的最大消息的大小?](#21如何设置-kafka-能接收的最大消息的大小)
+* [22.监控 Kafka 的框架都有哪些?](#22监控-kafka-的框架都有哪些)
+* [23.Broker 的 Heap Size 如何设置？](#23broker-的-heap-size-如何设置)
+* [24.如何估算 Kafka 集群的机器数量?](#24如何估算-kafka-集群的机器数量)
+* [25.Leader 总是 -1，怎么破?](#25leader-总是--1怎么破)
+* [26.LEO、LSO、AR、ISR、HW 都表示什么含义?](#26leolsoarisrhw-都表示什么含义)
+* [27.Kafka 能手动删除消息吗?](#27kafka-能手动删除消息吗)
+* [28.consumer_offsets 是做什么用的?](#28consumer_offsets-是做什么用的)
+* [29.分区 Leader 选举策略有几种?](#29分区-leader-选举策略有几种)
+* [30.Kafka 的哪些场景中使用了零拷贝(Zero Copy)?](#30kafka-的哪些场景中使用了零拷贝zero-copy)
+* [31.如何调优 Kafka?](#31如何调优-kafka)
+* [32.Controller 发生网络分区(Network Partitioning)时，Kafka 会怎么样?](#32controller-发生网络分区network-partitioning时kafka-会怎么样)
+* [33.Java Consumer 为什么采用单线程来获取消息?](#33java-consumer-为什么采用单线程来获取消息)
+* [34.简述 Follower 副本消息同步的完整流程。](#34简述-follower-副本消息同步的完整流程)
+* [参考资料](#参考资料)
+
+
 #### 1.为什么要使用 kafka？为什么要使用消息队列？
 
 缓冲和削峰：上游数据时有突发流量，下游可能扛不住，或者下游没有足够多的机器来保证冗余，kafka在中间可以起到一个缓冲的作用，把消息暂存在kafka中，下游服务就可以按照自己的节奏进行慢慢处理。
