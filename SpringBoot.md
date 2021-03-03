@@ -1,3 +1,30 @@
+## Spring Boot
+
+
+* [1.什么是springboot](#1什么是springboot)
+* [2.Spring Boot 有哪些优点？](#2spring-boot-有哪些优点)
+* [3. 创建一个 Spring Boot Project 的最简单的方法是什么？](#3-创建一个-spring-boot-project-的最简单的方法是什么)
+* [4.Spring 和 SpringBoot 有什么不同？](#4spring-和-springboot-有什么不同)
+* [5.如何重新加载 Spring Boot 上的更改，而无需重新启动服务器？](#5如何重新加载-spring-boot-上的更改而无需重新启动服务器)
+* [6.Spring Boot 中的监视器是什么？](#6spring-boot-中的监视器是什么)
+* [7.如何在 Spring Boot 中禁用 Actuator 端点安全性？](#7如何在-spring-boot-中禁用-actuator-端点安全性)
+* [8.怎么使用 Maven 来构建一个 SpringBoot 程序？](#8怎么使用-maven-来构建一个-springboot-程序)
+* [9.Spring Initializr 是创建 Spring Boot Projects 的唯一方法吗？](#9spring-initializr-是创建-spring-boot-projects-的唯一方法吗)
+* [10.为什么我们需要 spring-boot-maven-plugin?](#10为什么我们需要-spring-boot-maven-plugin)
+* [11.什么是嵌入式服务器？我们为什么要使用嵌入式服务器呢?](#11什么是嵌入式服务器我们为什么要使用嵌入式服务器呢)
+* [12.如何在 Spring Boot 中添加通用的 JS 代码？](#12如何在-spring-boot-中添加通用的-js-代码)
+* [13.如何使用 Spring Boot 部署到不同的服务器？](#13如何使用-spring-boot-部署到不同的服务器)
+* [14.如何使用配置文件通过 Spring Boot 配置特定环境的配置？](#14如何使用配置文件通过-spring-boot-配置特定环境的配置)
+* [15.什么是Swagger？你用Spring Boot实现了吗？](#15什么是swagger你用spring-boot实现了吗)
+* [16.如何实现Spring Boot应用程序的安全性？](#16如何实现spring-boot应用程序的安全性)
+* [17.比较一下Spring Security和Shiro各自的优缺点？](#17比较一下spring-security和shiro各自的优缺点)
+* [18.Spring Boot中如何解决跨域问题？](#18spring-boot中如何解决跨域问题)
+* [19.Spring Boot的核心注解是哪些？他由哪几个注解组成的？](#19spring-boot的核心注解是哪些他由哪几个注解组成的)
+* [20.保护SpringBoot应用有哪些方法？](#20保护springboot应用有哪些方法)
+* [21.SpringBoot 2.X有哪些新特性？与1.X有什么区别？](#21springboot-2x有哪些新特性与1x有什么区别)
+* [参考链接](#参考链接)
+
+
 #### 1.什么是springboot 
 
 用来简化spring应用的初始搭建以及开发过程 使用特定的方式来进行配置（properties或yml文件） 
@@ -28,7 +55,7 @@ Spring Boot 的优点有：
 
 8、基于环境的配置 使用这些属性，您可以将您正在使用的环境传递到应用程序：-Dspring.profiles.active = {enviornment}。在加载主应用程序属性文件后，Spring 将在（application{environment} .properties）中加载后续的应用程序属性文件。
 
-#### 3. **创建一个 Spring Boot Project 的最简单的方法是什么？**
+#### 3. 创建一个 Spring Boot Project 的最简单的方法是什么？
 
 Spring Initializr是启动 Spring Boot Projects 的一个很好的工具。
 
@@ -94,7 +121,7 @@ Spring boot actuator 是 spring 启动框架中的重要功能之一。Spring bo
 
 我们可以在 Maven central 中找到 *spring-boot-starter-parent* 的最新版本。
 
-**使用 starter 父项目依赖很方便，但并非总是可行**。例如，如果我们公司都要求项目继承标准 POM，我们就不能依赖 SpringBoot starter 了。
+使用 starter 父项目依赖很方便，但并非总是可行。例如，如果我们公司都要求项目继承标准 POM，我们就不能依赖 SpringBoot starter 了。
 
 这种情况，我们可以通过对 POM 元素的依赖管理来处理：
 
@@ -341,9 +368,6 @@ public class CorsConfig {
 #### 参考链接
 
 https://blog.csdn.net/yuzongtao/article/details/84295732
-
 https://www.cnblogs.com/aishangJava/p/10546741.html
-
 https://www.codercto.com/a/77896.html
-
 https://blog.csdn.net/u012068483/article/details/105039330/
