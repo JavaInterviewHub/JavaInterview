@@ -1,20 +1,52 @@
 ## Spring
 
-#### 1.**什么是spring?**
+
+* [1.什么是spring?](#1什么是spring)
+* [2.使用Spring框架的好处是什么？](#2使用spring框架的好处是什么)
+* [3.Spring由哪些模块组成?](#3spring由哪些模块组成)
+* [4.Spring是怎么解决循环依赖的？](#4spring是怎么解决循环依赖的)
+* [5.Spring Boot手动装配有哪几种方式？](#5spring-boot手动装配有哪几种方式)
+* [6.Spring Boot自动配置原理](#6spring-boot自动配置原理)
+* [7.谈谈自己对于Spring IOC的理解](#7谈谈自己对于spring-ioc的理解)
+* [8.谈谈自己对于Spring AOP的理解](#8谈谈自己对于spring-aop的理解)
+* [9.Spring AOP和AspectJ AOP有什么区别？](#9spring-aop和aspectj-aop有什么区别)
+* [10.Spring中的bean的作用域有哪些？](#10spring中的bean的作用域有哪些)
+* [11.Spring中的单例bean的线程安全问题了解吗？](#11spring中的单例bean的线程安全问题了解吗)
+* [12.Spring中的bean生命周期了解过吗？](#12spring中的bean生命周期了解过吗)
+* [13.Spring MVC的工作原理了解嘛？](#13spring-mvc的工作原理了解嘛)
+* [14.Spring框架中用到了哪些设计模式？](#14spring框架中用到了哪些设计模式)
+* [15.@Component和@Bean的区别是什么？](#15component和bean的区别是什么)
+* [16.将一个类声明为Spring的bean的注解有哪些？](#16将一个类声明为spring的bean的注解有哪些)
+* [17.Spring事务管理的方式有几种？](#17spring事务管理的方式有几种)
+* [18.Spring事务中的隔离级别有哪几种？](#18spring事务中的隔离级别有哪几种)
+* [19.Spring事务中有哪几种事务传播行为？](#19spring事务中有哪几种事务传播行为)
+* [20.Spring 事务底层原理](#20spring-事务底层原理)
+* [21.BeanFactory和ApplicationContext有什么区别？](#21beanfactory和applicationcontext有什么区别)
+* [22.Resource 是如何被查找、加载的？](#22resource-是如何被查找加载的)
+* [23.解释自动装配的各种模式？](#23解释自动装配的各种模式)
+* [24.有哪些不同类型的IOC(依赖注入)？](#24有哪些不同类型的ioc依赖注入)
+* [25.Spring AOP 实现原理](#25spring-aop-实现原理)
+* [26.ApplicationContext通常的实现是什么?](#26applicationcontext通常的实现是什么)
+* [27. Bean 工厂和 Application contexts 有什么区别？](#27-bean-工厂和-application-contexts-有什么区别)
+* [参考资料](#参考资料)
+
+
+
+#### 1.什么是spring?
 
 Spring 是个java企业级应用的开源开发框架。Spring主要用来开发Java应用，但是有些扩展是针对构建J2EE平台的web应用。Spring 框架目标是简化Java企业级应用开发，并通过POJO为基础的编程模型促进良好的编程习惯。
 
-#### 2.**使用Spring框架的好处是什么？**
+#### 2.使用Spring框架的好处是什么？
 
-- **轻量：**Spring 是轻量的，基本的版本大约2MB。
-- **控制反转：**Spring通过控制反转实现了松散耦合，对象们给出它们的依赖，而不是创建或查找依赖的对象们。
-- **面向切面的编程(AOP)：**Spring支持面向切面的编程，并且把应用业务逻辑和系统服务分开。
-- **容器：**Spring 包含并管理应用中对象的生命周期和配置。
-- **MVC框架**：Spring的WEB框架是个精心设计的框架，是Web框架的一个很好的替代品。
-- **事务管理：**Spring 提供一个持续的事务管理接口，可以扩展到上至本地事务下至全局事务（JTA）。
-- **异常处理：**Spring 提供方便的API把具体技术相关的异常（比如由JDBC，Hibernate or JDO抛出的）转化为一致的unchecked 异常。
+- 轻量：Spring 是轻量的，基本的版本大约2MB。
+- 控制反转：Spring通过控制反转实现了松散耦合，对象们给出它们的依赖，而不是创建或查找依赖的对象们。
+- 面向切面的编程(AOP)：Spring支持面向切面的编程，并且把应用业务逻辑和系统服务分开。
+- 容器：Spring 包含并管理应用中对象的生命周期和配置。
+- MVC框架：Spring的WEB框架是个精心设计的框架，是Web框架的一个很好的替代品。
+- 事务管理：Spring 提供一个持续的事务管理接口，可以扩展到上至本地事务下至全局事务（JTA）。
+- 异常处理：Spring 提供方便的API把具体技术相关的异常（比如由JDBC，Hibernate or JDO抛出的）转化为一致的unchecked 异常。
 
-#### 3.**Spring由哪些模块组成**?
+#### 3.Spring由哪些模块组成?
 
 以下是Spring 框架的基本模块：
 
@@ -254,13 +286,13 @@ JDK的动态代理主要涉及java.lang.reflect包中的两个类：Proxy和Invo
 CGLib采用底层的字节码技术，为一个类创建子类，并在子类中采用方法拦截的技术拦截所有父类的调用方法，并顺势织入横切逻辑.它运行期间生成的代理对象是目标类的扩展子类.所以无法通知final、private的方法,因为它们不能被覆写.是针对类实现代理,主要是为指定的类生成一个子类，覆盖其中方法。
 在spring中默认。况下使用JDK动态代理实现AOP,如果proxy-target-class设置为true或者使用了优化策略那么会使用CGLIB来创建动态代理.Spring　AOP在这两种方式的实现上基本一样．以JDK代理为例，会使用JdkDynamicAopProxy来创建代理，在invoke()方法首先需要织入到当前类的增强器封装到拦截器链中，然后递归的调用这些拦截器完成功能的织入，最终返回代理对象。
 
-#### 26.**ApplicationContext通常的实现是什么?**
+#### 26.ApplicationContext通常的实现是什么?
 
-- **FileSystemXmlApplicationContext ：**此容器从一个XML文件中加载beans的定义，XML Bean 配置文件的全路径名必须提供给它的构造函数。
-- **ClassPathXmlApplicationContext：**此容器也从一个XML文件中加载beans的定义，这里，你需要正确设置classpath因为这个容器将在classpath里找bean配置。
-- **WebXmlApplicationContext：**此容器加载一个XML文件，此文件定义了一个WEB应用的所有bean。
+- FileSystemXmlApplicationContext ：此容器从一个XML文件中加载beans的定义，XML Bean 配置文件的全路径名必须提供给它的构造函数。
+- ClassPathXmlApplicationContext：此容器也从一个XML文件中加载beans的定义，这里，你需要正确设置classpath因为这个容器将在classpath里找bean配置。
+- WebXmlApplicationContext：此容器加载一个XML文件，此文件定义了一个WEB应用的所有bean。
 
-#### 27. **Bean 工厂和 Application contexts 有什么区别？**
+#### 27. Bean 工厂和 Application contexts 有什么区别？
 
 Application contexts提供一种方法处理文本消息，一个通常的做法是加载文件资源（比如镜像），它们可以向注册为监听器的bean发布事件。另外，在容器或容器内的对象上执行的那些不得不由bean工厂以程序化方式处理的操作，可以在Application contexts中以声明的方式处理。Application contexts实现了MessageSource接口，该接口的实现以可插拔的方式提供获取本地化消息的方法。
 
@@ -268,5 +300,4 @@ Application contexts提供一种方法处理文本消息，一个通常的做法
 ### 参考资料
 https://www.cnblogs.com/yanggb/p/11004887.html
 https://www.jianshu.com/p/a5d960c6f6dd
-
 https://ifeve.com/spring-interview-questions-and-answers/
