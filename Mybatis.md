@@ -1,10 +1,33 @@
+## Mybatis
+
+
+
+* [1.什么是Mybatis？](#1什么是mybatis)
+* [2.Mybatis的优缺点?](#2mybatis的优缺点)
+* [3.Mybatis使用场合?](#3mybatis使用场合)
+* [4.#{}和${}的区别是什么？](#4和的区别是什么)
+* [5.当实体类的属性名和表种字段名不一致怎么办?](#5当实体类的属性名和表种字段名不一致怎么办)
+* [6.Mybatis是如何将sql执行结果封装为目标对象并返回的？都有哪些映射形式？](#6mybatis是如何将sql执行结果封装为目标对象并返回的都有哪些映射形式)
+* [7.如何获取自动生成的(主)键值?](#7如何获取自动生成的主键值)
+* [8.Mybatis的Xml映射文件中，不同的Xml映射文件，id是否可以重复？](#8mybatis的xml映射文件中不同的xml映射文件id是否可以重复)
+* [9. Mybatis动态SQL？](#9-mybatis动态sql)
+* [10.说一下resultMap和resultType？](#10说一下resultmap和resulttype)
+* [11. Mybatis全局配置文件中有哪些标签?分别代表什么意思?](#11-mybatis全局配置文件中有哪些标签分别代表什么意思)
+* [12.Mybatis能执行一对一、一对多的关联查询吗？都有哪些实现方式，以及它们之间的区别。](#12mybatis能执行一对一一对多的关联查询吗都有哪些实现方式以及它们之间的区别)
+* [13.Mybatis是否支持延迟加载？如果支持，它的实现原理是什么？](#13mybatis是否支持延迟加载如果支持它的实现原理是什么)
+* [14.Mybatis都有哪些Executor执行器？它们之间的区别是什么？](#14mybatis都有哪些executor执行器它们之间的区别是什么)
+* [15.Mybatis的一级、二级缓存](#15mybatis的一级二级缓存)
+* [参考链接](#参考链接)
+
+
+
 #### 1.什么是Mybatis？
 
-**1.** mybatis是一个半ORM框架，它内部封装了JDBC，开发时只需要关乎sql语句本身，不需要花费精力去处理驱动，创建连接，创建1statement等繁复过程。
+1）mybatis是一个半ORM框架，它内部封装了JDBC，开发时只需要关乎sql语句本身，不需要花费精力去处理驱动，创建连接，创建1statement等繁复过程。
 
- **2.** mybatis可以使用xml或注解来配置和映射原生信息。将pijo映射成数据库中的记录，避免了几乎所有的JDBC 代码和手动设置参数以及获取结果集。
+2）mybatis可以使用xml或注解来配置和映射原生信息。将pijo映射成数据库中的记录，避免了几乎所有的JDBC 代码和手动设置参数以及获取结果集。
 
- **3.** 通过xm文件或注解的方式将要执行的各种statement配置起来,并通java对象和statement中sql的动态参数进行映射生成最终的sql语句,最后由mybatis框架执行sql并将结果映射java对象返回.
+3）通过xm文件或注解的方式将要执行的各种statement配置起来,并通java对象和statement中sql的动态参数进行映射生成最终的sql语句,最后由mybatis框架执行sql并将结果映射java对象返回.
 
 #### 2.Mybatis的优缺点?
 
@@ -71,7 +94,7 @@ Mybatis在处理{}时，就是把时，就是把{}替换成变量的值。
 
 不同的Xml映射文件，如果配置了namespace，那么id可以重复；如果没有配置namespace，那么id不能重复
 
-#### 9. **Mybatis动态SQL？**
+#### 9. Mybatis动态SQL？
 
 1) 传统的JDBC的方法，在组合SQL语句的时候需要去拼接，稍微不注意就会少少了一个空格，标点符号，都会导致系统错误。Mybatis的动态SQL就是为了解决这种问题而产生的；Mybatis的动态SQL语句值基于OGNL表达式的，方便在SQL语句中实现某些逻辑；可以使用标签组合成灵活的sql语句，提供开发的效率。
 
@@ -100,17 +123,17 @@ transactionManager 事务管理器
 dataSource 数据源
 mappers 映射器
 
-#### 12.**Mybatis能执行一对一、一对多的关联查询吗？都有哪些实现方式，以及它们之间的区别。**
+#### 12.Mybatis能执行一对一、一对多的关联查询吗？都有哪些实现方式，以及它们之间的区别。
 
 答：能，Mybatis不仅可以执行一对一、一对多的关联查询，还可以执行多对一，多对多的关联查询，多对一查询，其实就是一对一查询，只需要把selectOne()修改为selectList()即可；多对多查询，其实就是一对多查询，只需要把selectOne()修改为selectList()即可。
 
 　　关联对象查询，有两种实现方式，一种是单独发送一个sql去查询关联对象，赋给主对象，然后返回主对象。另一种是使用嵌套查询，嵌套查询的含义为使用join查询，一部分列是A对象的属性值，另外一部分列是关联对象B的属性值，好处是只发一个sql查询，就可以把主对象和其关联对象查出来。
 
-　　那么问题来了，join查询出来100条记录，如何确定主对象是5个，而不是100个？其去重复的原理是<resultMap>标签内的<id>子标签，指定了唯一确定一条记录的id列，Mybatis根据<id>列值来完成100条记录的去重复功能，<id>可以有多个，代表了联合主键的语意。
+　　那么问题来了，join查询出来100条记录，如何确定主对象是5个，而不是100个？其去重复的原理是 resultMap标签内的 id 子标签，指定了唯一确定一条记录的id列，Mybatis根据 id 列值来完成100条记录的去重复功能， id 可以有多个，代表了联合主键的语意。
 
 　　同样主对象的关联对象，也是根据这个原理去重复的，尽管一般情况下，只有主对象会有重复记录，关联对象一般不会重复。
 
-#### 13.**Mybatis是否支持延迟加载？如果支持，它的实现原理是什么？**
+#### 13.Mybatis是否支持延迟加载？如果支持，它的实现原理是什么？
 
 Mybatis仅支持association关联对象和collection关联集合对象的延迟加载，association指的就是一对一，collection指的就是一对多查询。在Mybatis配置文件中，可以配置是否启用延迟加载lazyLoadingEnabled=true|false。
 
@@ -118,19 +141,19 @@ Mybatis仅支持association关联对象和collection关联集合对象的延迟�
 
 当然了，不光是Mybatis，几乎所有的包括Hibernate，支持延迟加载的原理都是一样的。
 
-#### 14.**Mybatis都有哪些Executor执行器？它们之间的区别是什么？**
+#### 14.Mybatis都有哪些Executor执行器？它们之间的区别是什么？
 
-Mybatis有三种基本的Executor执行器，**SimpleExecutor、ReuseExecutor、BatchExecutor。**
+Mybatis有三种基本的Executor执行器，SimpleExecutor、ReuseExecutor、BatchExecutor。
 
-**SimpleExecutor：**每执行一次update或select，就开启一个Statement对象，用完立刻关闭Statement对象。
+SimpleExecutor：每执行一次update或select，就开启一个Statement对象，用完立刻关闭Statement对象。
 
-**ReuseExecutor：**执行update或select，以sql作为key查找Statement对象，存在就使用，不存在就创建，用完后，不关闭Statement对象，而是放置于Map<String, Statement>内，供下一次使用。简言之，就是重复使用Statement对象。
+ReuseExecutor：执行update或select，以sql作为key查找Statement对象，存在就使用，不存在就创建，用完后，不关闭Statement对象，而是放置于Map<String, Statement>内，供下一次使用。简言之，就是重复使用Statement对象。
 
-**BatchExecutor：**执行update（没有select，JDBC批处理不支持select），将所有sql都添加到批处理中（addBatch()），等待统一执行（executeBatch()），它缓存了多个Statement对象，每个Statement对象都是addBatch()完毕后，等待逐一执行executeBatch()批处理。与JDBC批处理相同。
+BatchExecutor：执行update（没有select，JDBC批处理不支持select），将所有sql都添加到批处理中（addBatch()），等待统一执行（executeBatch()），它缓存了多个Statement对象，每个Statement对象都是addBatch()完毕后，等待逐一执行executeBatch()批处理。与JDBC批处理相同。
 
 作用范围：Executor的这些特点，都严格限制在SqlSession生命周期范围内。
 
-#### 15.**Mybatis的一级、二级缓存**
+#### 15.Mybatis的一级、二级缓存
 
 （1）一级缓存: 基于 PerpetualCache 的 HashMap 本地缓存，其存储作用域为 Session，当 Session flush 或 close 之后，该 Session 中的所有 Cache 就将清空，默认打开一级缓存。
 
@@ -140,7 +163,7 @@ Mybatis有三种基本的Executor执行器，**SimpleExecutor、ReuseExecutor、
 
 
 
-#### 参考链接
+### 参考链接
 
 https://my.oschina.net/u/4116655/blog/3055230
 
