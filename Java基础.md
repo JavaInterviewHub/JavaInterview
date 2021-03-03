@@ -1,3 +1,10 @@
+* [Java基础](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md)
+   * [1.说下面向对象四大特性](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md#1说下面向对象四大特性)
+   * [2.Java语言有哪些特点](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md#2抽象类和接口java7的区别)
+   * [3.什么是Java程序的主类？应用程序和小程序的主类有何不同？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md#3.什么是Java程序的主类？应用程序和小程序的主类有何不同？)
+   * [4.访问修饰符public,private,protected,以及不写（默认）时的区别？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md#4.访问修饰符public,private,protected,以及不写（默认）时的区别？)
+
+
 ## Java基础
 
 #### 1.说下面向对象四大特性
