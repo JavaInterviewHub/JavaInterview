@@ -550,3 +550,26 @@
    * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#参考链接)
 
 
+* [设计模式](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+   * [1.接口是什么？为什么要使用接口而不是直接使用具体类？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#1接口是什么为什么要使用接口而不是直接使用具体类)
+   * [2.设计模式六大原则？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#2设计模式六大原则)
+   * [3.Java怎么实现单例模式？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#3java怎么实现单例模式)
+   * [4.什么是代理模式？什么是动态代理？Java中动态代理有哪些实现方式？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#4什么是代理模式什么是动态代理java中动态代理有哪些实现方式)
+   * [5.设计模式的类型](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#5设计模式的类型)
+   * [6.说说你所熟悉或听说过的 j2ee 中的几种常用模式?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#6说说你所熟悉或听说过的-j2ee-中的几种常用模式)
+   * [7.简述一下你了解的 Java 设计模式（总结）](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#7简述一下你了解的-java-设计模式总结)
+   * [8.适配器模式是什么？什么时候使用？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#8适配器模式是什么什么时候使用)
+   * [9.适配器模式与装饰器模式有什么区别？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#9适配器模式与装饰器模式有什么区别)
+   * [10.适配器模式和代理模式之间有什么不同？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#10适配器模式和代理模式之间有什么不同)
+   * [11.什么是模板方法模式？试举例说明。](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#11什么是模板方法模式试举例说明)
+   * [12.OOP中的组合、聚合和关联有什么区别？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#12oop中的组合聚合和关联有什么区别)
+   * [13.给我一个符合开闭原则的设计模式的例子？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#13给我一个符合开闭原则的设计模式的例子)
+   * [14.工厂模式与抽象工厂模式的区别？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#14工厂模式与抽象工厂模式的区别)
+   * [15.举出一个例子，在这种情况你会更倾向于使用抽象类，而不是接口？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#15举出一个例子在这种情况你会更倾向于使用抽象类而不是接口)
+   * [16.Dubbo 源码使用了哪些设计模式？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#16dubbo-源码使用了哪些设计模式)
+   * [17.Spring 当中用到了哪些设计模式？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#17spring-当中用到了哪些设计模式)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#参考链接)
+
+
+
+
