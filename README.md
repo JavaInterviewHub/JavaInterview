@@ -219,7 +219,7 @@
    * [39.表分区与分表的区别](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MySQL.md#39表分区与分表的区别)
    * [40.表分区有什么好处？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MySQL.md#40表分区有什么好处)
    * [41.MVVC了解过吗](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MySQL.md#41mvvc了解过吗)
-   * [42、在MVCC并发控制中，读操作可以分成哪几类？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MySQL.md#42在mvcc并发控制中读操作可以分成哪几类)
+   * [42.在MVCC并发控制中，读操作可以分成哪几类？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MySQL.md#42在mvcc并发控制中读操作可以分成哪几类)
    * [43.行级锁定的优点](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MySQL.md#43行级锁定的优点)
    * [44.行级锁定的缺点](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MySQL.md#44行级锁定的缺点)
    * [45.MySQL优化](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MySQL.md#45mysql优化)
