@@ -347,3 +347,24 @@
    * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/SpringCloud.md#参考链接)
 
 
+
+* [Mybatis](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md)
+
+   * [1.什么是Mybatis？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#1什么是mybatis)
+   * [2.Mybatis的优缺点?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#2mybatis的优缺点)
+   * [3.Mybatis使用场合?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#3mybatis使用场合)
+   * [4.https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#{}和${}的区别是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#4和的区别是什么)
+   * [5.当实体类的属性名和表种字段名不一致怎么办?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#5当实体类的属性名和表种字段名不一致怎么办)
+   * [6.Mybatis是如何将sql执行结果封装为目标对象并返回的？都有哪些映射形式？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#6mybatis是如何将sql执行结果封装为目标对象并返回的都有哪些映射形式)
+   * [7.如何获取自动生成的(主)键值?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#7如何获取自动生成的主键值)
+   * [8.Mybatis的Xml映射文件中，不同的Xml映射文件，id是否可以重复？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#8mybatis的xml映射文件中不同的xml映射文件id是否可以重复)
+   * [9. Mybatis动态SQL？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#9-mybatis动态sql)
+   * [10.说一下resultMap和resultType？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#10说一下resultmap和resulttype)
+   * [11. Mybatis全局配置文件中有哪些标签?分别代表什么意思?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#11-mybatis全局配置文件中有哪些标签分别代表什么意思)
+   * [12.Mybatis能执行一对一、一对多的关联查询吗？都有哪些实现方式，以及它们之间的区别。](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#12mybatis能执行一对一一对多的关联查询吗都有哪些实现方式以及它们之间的区别)
+   * [13.Mybatis是否支持延迟加载？如果支持，它的实现原理是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#13mybatis是否支持延迟加载如果支持它的实现原理是什么)
+   * [14.Mybatis都有哪些Executor执行器？它们之间的区别是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#14mybatis都有哪些executor执行器它们之间的区别是什么)
+   * [15.Mybatis的一级、二级缓存](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#15mybatis的一级二级缓存)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#参考链接)
+
+
