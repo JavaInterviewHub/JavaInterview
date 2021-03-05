@@ -367,4 +367,27 @@
    * [15.Mybatis的一级、二级缓存](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#15mybatis的一级二级缓存)
    * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mybatis.md#参考链接)
 
+* [Netty](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md)
+
+   * [1.你了解过哪些IO模型？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#1你了解过哪些io模型)
+   * [2.什么是Reactor模型？Reactor的3种版本都知道吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#2什么是reactor模型reactor的3种版本都知道吗)
+   * [3.了解过粘包拆包吗？为什么会出现粘包拆包？怎么处理粘包拆包？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#3了解过粘包拆包吗为什么会出现粘包拆包怎么处理粘包拆包)
+   * [4.UDP协议会有粘包拆包的问题吗？为什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#4udp协议会有粘包拆包的问题吗为什么)
+   * [5.Netty 是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#5netty-是什么)
+   * [6.为什么要用 Netty？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#6为什么要用-netty)
+   * [7.Netty 的应用场景了解么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#7netty-的应用场景了解么)
+   * [8.Netty 的零拷贝了解么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#8netty-的零拷贝了解么)
+   * [9.Netty 的心跳机制了解么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#9netty-的心跳机制了解么)
+   * [10.Netty 中有哪些重要组件？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#10netty-中有哪些重要组件)
+   * [11.Netty 发送消息有几种方式？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#11netty-发送消息有几种方式)
+   * [12.Netty 支持哪些心跳类型设置？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#12netty-支持哪些心跳类型设置)
+   * [13.说说Netty的执行流程？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#13说说netty的执行流程)
+   * [14.Netty高性能体现在哪些方面？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#14netty高性能体现在哪些方面)
+   * [参考资料](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Netty.md#参考资料)
+
+
+
+
+
+
 
