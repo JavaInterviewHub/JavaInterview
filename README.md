@@ -571,5 +571,29 @@
    * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#参考链接)
 
 
+* [分布式](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md)
+   * [1.分布式id如何生成？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#1分布式id如何生成)
+   * [2.雪花算法了解过吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#2雪花算法了解过吗)
+   * [3.什么是CAP定理？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#3什么是cap定理)
+   * [4.分布式事务了解过吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#4分布式事务了解过吗)
+   * [5.什么是二阶段提交（2PC）？什么是三阶段提交（3PC）？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#5什么是二阶段提交2pc什么是三阶段提交3pc)
+   * [6.TCC了解过吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#6tcc了解过吗)
+   * [7.Paxos算法了解过吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#7paxos算法了解过吗)
+   * [8.Zookeeper的Zab协议了解过吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#8zookeeper的zab协议了解过吗)
+   * [9.知道什么是Gossip协议吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#9知道什么是gossip协议吗)
+   * [10.了解过哪些负载均衡算法？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#10了解过哪些负载均衡算法)
+   * [11.负载均衡的实现方案有哪些？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#11负载均衡的实现方案有哪些)
+   * [12.正向代理和反向代理的区别](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#12正向代理和反向代理的区别)
+   * [13.分布式 Session了解过吗？如何实现？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#13分布式-session了解过吗如何实现)
+   * [14.如何防止表单重复提交？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#14如何防止表单重复提交)
+   * [15.如何设计一个秒杀系统?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#15如何设计一个秒杀系统)
+   * [16.分布式系统的接口幂等性设计](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#16分布式系统的接口幂等性设计)
+   * [17.如何保障请求执行顺序](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#17如何保障请求执行顺序)
+   * [18.BASE理论了解过吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#18base理论了解过吗)
+   * [19.SOA和微服务架构有哪些区别?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#19soa和微服务架构有哪些区别)
+   * [参考资料](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F.md#参考资料)
+
+
+
 
 
