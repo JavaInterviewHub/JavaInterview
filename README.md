@@ -437,7 +437,18 @@
    * [参考资料](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Zookeeper.md#参考资料)
 
 
-
+* [消息队列](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md)
+   * [1.消息队列有哪些应用场景？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#1消息队列有哪些应用场景)
+   * [2.消息队列的弊端有哪些？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#2消息队列的弊端有哪些)
+   * [3.使用消息队列，怎么确保消息不丢失？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#3使用消息队列怎么确保消息不丢失)
+   * [4.使用消息队列，如果处理重复消息？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#4使用消息队列如果处理重复消息)
+   * [5.Kafka的消息是有序的吗？如果保证Kafka消息的顺序性？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#5kafka的消息是有序的吗如果保证kafka消息的顺序性)
+   * [6.消息如何保证幂等性](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#6消息如何保证幂等性)
+   * [7.消息队列积压怎么办](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#7消息队列积压怎么办)
+   * [8.各种MQ的比较](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#8各种mq的比较)
+   * [9.如何解决消息队列的延时以及过期失效问题？消息队列满了以后该怎么处理？有几百万消息持续积压几小时怎么解决？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#9如何解决消息队列的延时以及过期失效问题消息队列满了以后该怎么处理有几百万消息持续积压几小时怎么解决)
+   * [10.为什么使用消息队列？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#10为什么使用消息队列)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.md#参考链接)
 
 
 
