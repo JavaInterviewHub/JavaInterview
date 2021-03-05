@@ -531,5 +531,22 @@
    * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#参考链接)
 
 
+* [数据结构与算法](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md)
+   * [1.什么是算法？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#1什么是算法)
+   * [2.TreeMap和TreeSet在排序时如何比较元素？Collections工具类中的sort()方法如何比较元素？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#2treemap和treeset在排序时如何比较元素collections工具类中的sort方法如何比较元素)
+   * [3.如何知道二叉树的深度？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#3如何知道二叉树的深度)
+   * [4.介绍一下，堆排序的原理是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#4介绍一下堆排序的原理是什么)
+   * [5.数组和链表的区别](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#5数组和链表的区别)
+   * [6.二分查找了解过吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#6二分查找了解过吗)
+   * [7.说下你熟悉的排序算法](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#7说下你熟悉的排序算法)
+   * [8.布隆过滤器了解过吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#8布隆过滤器了解过吗)
+   * [9.一致性hash算法了解过吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#9一致性hash算法了解过吗)
+   * [10.如何在一个1到100的整数数组中找到丢失的数字?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#10如何在一个1到100的整数数组中找到丢失的数字)
+   * [11.请你讲讲LRU算法的实现原理？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#11请你讲讲lru算法的实现原理)
+   * [12.为什么要设计后缀表达式，有什么好处？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#12为什么要设计后缀表达式有什么好处)
+   * [13. 什么是B树?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#13-什么是b树)
+   * [14.什么是B+树?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#14什么是b树)
+   * [15.谈一谈，id全局唯一且自增，如何实现？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#15谈一谈id全局唯一且自增如何实现)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.md#参考链接)
 
 
