@@ -157,5 +157,28 @@
    * [如何判断一个常量是废弃常量 ？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#如何判断一个常量是废弃常量-)
    * [参考资料](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#参考资料)
 
+* [Java IO](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md)
+   * [1.Java 中有几种类型的流？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#1java-中有几种类型的流)
+   * [2.什么是 java序列化？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#2什么是-java序列化)
+   * [3.如何实现 java 序列化？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#3如何实现-java-序列化)
+   * [4.字节流和字符流的区别？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#4字节流和字符流的区别)
+   * [5.PrintStream、BufferedWriter、PrintWriter的比较?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#5printstreambufferedwriterprintwriter的比较)
+   * [6.什么是节点流,什么是处理流,它们各有什么用处,处理流的创建有什么特征？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#6什么是节点流什么是处理流它们各有什么用处处理流的创建有什么特征)
+   * [7.流一般需要不需要关闭,如果关闭的话在用什么方法,一般要在那个代码块里面关闭比较好，处理流是怎么关闭的，如果有多个流互相调用传入是怎么关闭的？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#7流一般需要不需要关闭如果关闭的话在用什么方法一般要在那个代码块里面关闭比较好处理流是怎么关闭的如果有多个流互相调用传入是怎么关闭的)
+   * [8.什么是BIO](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#8什么是bio)
+   * [9.什么是NIO](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#9什么是nio)
+   * [10.什么是AIO](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#10什么是aio)
+   * [11.同步与异步](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#11同步与异步)
+   * [12.阻塞与非阻塞](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#12阻塞与非阻塞)
+   * [13.同步、异步、阻塞、非堵塞](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#13同步异步阻塞非堵塞)
+   * [14.通道是个什么意思？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#14通道是个什么意思)
+   * [15.缓冲区是什么意思？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#15缓冲区是什么意思)
+   * [16.IO多路复用的底层原理](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#16io多路复用的底层原理)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md#参考链接)
+
+
+
+
+
 
 
