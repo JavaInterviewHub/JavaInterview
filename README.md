@@ -1,3 +1,13 @@
+
+
+这个Repo主要用来分享Java面试题，目前已经涵盖Java基础、Java多线程、Java虚拟机、MySQL、Redis、消息中间件、Kafka、RabbitMQ、微服务、Spring、MyBatis、Netty、Zookeeper、计算机网络、数据结构与算法、设计模式等内容，后续还会不断更新。
+如果对于有所帮助，可以给个star。有纰漏的地方，欢迎给我们提PR。
+如果想获取本Repo的PDF版本，可以用微信扫描下方二维码，回复“pdf”，即可获取。
+
+
+
+
+
 * [Java基础](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md#Java基础)
    * [1.说下面向对象四大特性](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md#1说下面向对象四大特性)
    * [2.Java语言有哪些特点](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E5%9F%BA%E7%A1%80.md#2java语言有哪些特点)
