@@ -1,7 +1,9 @@
 
 
 这个Repo主要用来分享Java面试题，目前已经涵盖Java基础、Java多线程、Java虚拟机、MySQL、Redis、消息中间件、Kafka、RabbitMQ、微服务、Spring、MyBatis、Netty、Zookeeper、计算机网络、数据结构与算法、设计模式等内容，后续还会不断更新。
+
 如果对于有所帮助，可以给个star。有纰漏的地方，欢迎给我们提PR。
+
 如果想获取本Repo的PDF版本，可以用微信扫描下方二维码，回复“pdf”，即可获取。
 
 
