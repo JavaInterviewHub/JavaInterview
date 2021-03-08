@@ -6,8 +6,9 @@
 
 如果想获取本Repo的PDF版本，可以用微信扫描下方二维码，回复“pdf”，即可获取。
 
-![avatar](https://github.com/JavaInterviewHub/JavaInterview/blob/main/imgs/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%99%BE%E7%A7%91%E5%85%A8%E4%B9%A6.jpg)
-
+<div style="align: center">
+<img src="https://github.com/JavaInterviewHub/JavaInterview/blob/main/imgs/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%99%BE%E7%A7%91%E5%85%A8%E4%B9%A6.jpg"/>
+</div>
 
 
 
