@@ -6,6 +6,7 @@
 
 如果想获取本Repo的PDF版本，可以用微信扫描下方二维码，回复“pdf”，即可获取。
 
+![avatar](http://baidu.com/pic/doge.png)
 
 
 
