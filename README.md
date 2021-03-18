@@ -647,3 +647,23 @@
    * [37.在 Linux 下如何指定dns服务器，来解析某个域名？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Linux.md#37在-linux-下如何指定dns服务器来解析某个域名)
    * [参考资料](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Linux.md#参考资料)
 
+
+* [Mycat](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md)
+
+   * [1.Mycat是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#1mycat是什么)
+   * [2.什么叫混合切分](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#2什么叫混合切分)
+   * [3.在项目组中，切分后的库从哪里而来？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#3在项目组中切分后的库从哪里而来)
+   * [4.搭建mycat的核心配置文件有哪些？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#4搭建mycat的核心配置文件有哪些)
+   * [5.mycat分库可以分成100个库吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#5mycat分库可以分成100个库吗)
+   * [6.进行库表拆分时，拆分规则怎么取舍？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#6进行库表拆分时拆分规则怎么取舍)
+   * [7.Mycat中全局ID方案有哪些？程序自定义全局ID的方案有哪些？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#7mycat中全局id方案有哪些程序自定义全局id的方案有哪些)
+   * [8.Mycat的在分库分表之后，它是怎么支持联表查询的？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#8mycat的在分库分表之后它是怎么支持联表查询的)
+   * [9.配置文件不会变多，配置的节点主机会变多？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#9配置文件不会变多配置的节点主机会变多)
+   * [10.你们项目中分片的实现方式是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#10你们项目中分片的实现方式是什么)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#参考链接)
+
+
+
+
+
+
