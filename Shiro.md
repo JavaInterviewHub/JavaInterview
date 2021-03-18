@@ -1,5 +1,17 @@
 ## Shiro
 
+* [1.什么是shiro](#1什么是shiro)
+* [2.解释下Shiro的核心概念：Subject、SecurityManager、Realm](#2解释下shiro的核心概念subjectsecuritymanagerrealm)
+* [3.Shiro的优点](#3shiro的优点)
+* [4.Shiro有哪些组件？](#4shiro有哪些组件)
+* [5.说下Authentication 身份验证的流程](#5说下authentication-身份验证的流程)
+* [6.Authorization 授权的方式和流程是怎样的？](#6authorization-授权的方式和流程是怎样的)
+* [7.Cryptography 加密的过程是这样的？](#7cryptography-加密的过程是这样的)
+* [8.Realm 域如何使用？](#8realm-域如何使用)
+* [9.shiro拦截器的执行流程](#9shiro拦截器的执行流程)
+* [10.Session Manager 会话管理介绍一下](#10session-manager-会话管理介绍一下)
+* [参考资料](#参考资料)
+
 #### 1.什么是shiro
 
 Shiro是一个强大易用的java安全框架，提供了认证、授权、加密、会话管理、与web集成、缓存等功能，对于任何一个应用程序，都可以提供全面的安全服务，相比其他安全框架，shiro要简单的多。
