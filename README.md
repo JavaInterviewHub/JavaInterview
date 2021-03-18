@@ -969,8 +969,27 @@
    * [10.什么是Blue Ocean](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Jenkins.md#10什么是blue-ocean)
 
 
-
-
+* [Kubernetes](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md)
+   * [1.什么是Kubernetes？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#1什么是kubernetes)
+   * [2.Kubernetes与Docker有什么关系？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#2kubernetes与docker有什么关系)
+   * [3.什么是Container Orchestration？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#3什么是container-orchestration)
+   * [4.Kubernetes如何简化容器化部署？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#4kubernetes如何简化容器化部署)
+   * [5.什么是Google容器引擎？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#5什么是google容器引擎)
+   * [6.什么是Heapster？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#6什么是heapster)
+   * [7.什么是Minikube？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#7什么是minikube)
+   * [8.什么是Kubectl？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#8什么是kubectl)
+   * [9.什么是Kubelet？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#9什么是kubelet)
+   * [10.Kubernetes Architecture的不同组件有哪些？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#10kubernetes-architecture的不同组件有哪些)
+   * [11.你对Kube-proxy有什么了解？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#11你对kube-proxy有什么了解)
+   * [12.您能否介绍一下Kubernetes中主节点的工作情况？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#12您能否介绍一下kubernetes中主节点的工作情况)
+   * [13.kube-apiserver和kube-scheduler的作用是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#13kube-apiserver和kube-scheduler的作用是什么)
+   * [14.你能简要介绍一下Kubernetes控制管理器吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#14你能简要介绍一下kubernetes控制管理器吗)
+   * [15.什么是etcd？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#15什么是etcd)
+   * [16.你对Kubernetes的负载均衡器有什么了解？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#16你对kubernetes的负载均衡器有什么了解)
+   * [17.什么是Ingress网络，它是如何工作的？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#17什么是ingress网络它是如何工作的)
+   * [18.您对云控制器管理器有何了解？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#18您对云控制器管理器有何了解)
+   * [19.什么是Container资源监控？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#19什么是container资源监控)
+   * [20.Replica Set 和 Replication Controller之间有什么区别？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#20replica-set-和-replication-controller之间有什么区别)
 
 
 
