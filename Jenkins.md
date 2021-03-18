@@ -1,7 +1,7 @@
 ## Jenkins
 
-* [1、什么是Jenkins？](#1什么是jenkins)
-* [2、Maven, Ant和Jenkins有什么区别？](#2maven-ant和jenkins有什么区别)
+* [1.什么是Jenkins？](#1什么是jenkins)
+* [2.Maven, Ant和Jenkins有什么区别？](#2maven-ant和jenkins有什么区别)
 * [3.Jenkins支持哪些SCM工具？](#3jenkins支持哪些scm工具)
 * [4.在Jenkins中, 什么是持续集成？](#4在jenkins中-什么是持续集成)
 * [5.Jenkins的优势是什么？](#5jenkins的优势是什么)
@@ -12,11 +12,11 @@
 * [10.什么是Blue Ocean](#10什么是blue-ocean)
 
 
-#### 1、什么是Jenkins？
+#### 1.什么是Jenkins？
 
 Jenkins是一个用Java编写的开源持续集成工具。它跟踪版本控制系统, 并在发生更改时启动和监视构建系统。
 
-#### 2、Maven, Ant和Jenkins有什么区别？
+#### 2.Maven, Ant和Jenkins有什么区别？
 
 最基本的区别是：
 
