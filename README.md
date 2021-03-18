@@ -700,3 +700,21 @@
    * [参考资料](https://github.com/JavaInterviewHub/JavaInterview/blob/main/RocketMQ.md#参考资料)
 
 
+* [Servlet](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md)
+   * [1.Servlet的生命周期？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#1servlet的生命周期)
+   * [2.Servlet和JSP的区别？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#2servlet和jsp的区别)
+   * [3.Servlet的基本架构](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#3servlet的基本架构)
+   * [4.什么情况下调用doGet()和doPost()？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#4什么情况下调用doget和dopost)
+   * [5.页面间对象传递的方法](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#5页面间对象传递的方法)
+   * [6.四种会话跟踪技术](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#6四种会话跟踪技术)
+   * [7.Request对象的主要方法](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#7request对象的主要方法)
+   * [8.如何配置Servlet的初始化参数？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#8如何配置servlet的初始化参数)
+   * [9.如何读取Servlet的初始化参数？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#9如何读取servlet的初始化参数)
+   * [10.init(ServletConfig)方法执行次数](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#10initservletconfig方法执行次数)
+   * [11.init(ServletConfig)方法与异常](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#11initservletconfig方法与异常)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#参考链接)
+
+
+
+
+
