@@ -797,8 +797,28 @@
    * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#参考链接)
 
 
-
-
+* [计算机组成原理](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md)
+   * [1.计算机系统由哪两部分组成？计算机系统性能取决于什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#1计算机系统由哪两部分组成计算机系统性能取决于什么)
+   * [2.计算机系统5层层次结构从下到上由哪五层组成？哪些是物理机，哪些是虚拟机？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#2计算机系统5层层次结构从下到上由哪五层组成哪些是物理机哪些是虚拟机)
+   * [3.在计算机系统结构中，什么是翻译？什么是解释？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#3在计算机系统结构中什么是翻译什么是解释)
+   * [4.什么是计算机体系结构？什么是计算机组成？以乘法指令为例说明二者区别。](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#4什么是计算机体系结构什么是计算机组成以乘法指令为例说明二者区别)
+   * [5.冯诺依曼机器的主要特点？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#5冯诺依曼机器的主要特点)
+   * [6.程序访问的局部性](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#6程序访问的局部性)
+   * [7.字长](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#7字长)
+   * [8.Cache的基本工作原理](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#8cache的基本工作原理)
+   * [9.Cache和主存之间的映射方式](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#9cache和主存之间的映射方式)
+   * [10. Cache中主存块的替换算法](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#10-cache中主存块的替换算法)
+   * [11.二进制一般使用什么方法转换成十进制？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#11二进制一般使用什么方法转换成十进制)
+   * [12.计算机直接使用原码计算有什么缺点？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#12计算机直接使用原码计算有什么缺点)
+   * [13.请计算12、124、1023、-1、-127的二进制原码。](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#13请计算121241023-1-127的二进制原码)
+   * [14.计算机的补码解决了什么问题？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#14计算机的补码解决了什么问题)
+   * [15.什么是溢出？什么是上溢？什么是下溢？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#15什么是溢出什么是上溢什么是下溢)
+   * [16.浮点数之间做加减法运算需要几个步骤？每个步骤都是必须的吗？为什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#16浮点数之间做加减法运算需要几个步骤每个步骤都是必须的吗为什么)
+   * [17.虚拟存储器的基本概念](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#17虚拟存储器的基本概念)
+   * [18.页式虚拟存储器](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#18页式虚拟存储器)
+   * [19.段式虚拟存储器](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#19段式虚拟存储器)
+   * [20.段页式虚拟存储器](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#20段页式虚拟存储器)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.md#参考链接)
 
 
 
