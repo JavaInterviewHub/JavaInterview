@@ -755,7 +755,31 @@
 
 
 
-
+* [操作系统](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)
+   * [1.说下进程的状态](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#1说下进程的状态)
+   * [2.说下进程和线程的联系与区别](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#2说下进程和线程的联系与区别)
+   * [3.为什么进程上下文切换比线程上下文切换代价高？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#3为什么进程上下文切换比线程上下文切换代价高)
+   * [4.说下你对进程同步的理解](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#4说下你对进程同步的理解)
+   * [5.进程的通信方式有哪些](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#5进程的通信方式有哪些)
+   * [6.进程调度的种类有哪些？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#6进程调度的种类有哪些)
+   * [7.非抢占式调度与抢占式调度的区别是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#7非抢占式调度与抢占式调度的区别是什么)
+   * [8.说下你知道的调度算法](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#8说下你知道的调度算法)
+   * [9.一个程序从开始运行到结束的完整过程（四个过程）](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#9一个程序从开始运行到结束的完整过程四个过程)
+   * [10.死锁出现的条件？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#10死锁出现的条件)
+   * [11.如何处理死锁问题](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#11如何处理死锁问题)
+   * [12.如何处理死锁问题](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#12如何处理死锁问题)
+   * [13.什么是临界资源](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#13什么是临界资源)
+   * [14.介绍一下内存池、进程池、线程池](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#14介绍一下内存池进程池线程池)
+   * [15.动态链接库与静态链接库的区别](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#15动态链接库与静态链接库的区别)
+   * [16.说下对虚拟内存的理解](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#16说下对虚拟内存的理解)
+   * [17.页面置换算法了解多少？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#17页面置换算法了解多少)
+   * [18.中断与系统调用了解吗？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#18中断与系统调用了解吗)
+   * [19.用户态切换到内核态的方式有哪些？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#19用户态切换到内核态的方式有哪些)
+   * [20.用户态和核心态(内核态）之间的区别是什么呢？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#20用户态和核心态内核态之间的区别是什么呢)
+   * [21.内部碎片与外部碎片分别是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#21内部碎片与外部碎片分别是什么)
+   * [22.系统调用与库函数的区别](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#22系统调用与库函数的区别)
+   * [23.守护、僵尸、孤儿进程的概念](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#23守护僵尸孤儿进程的概念)
+   * [参考资料](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md#参考资料)
 
 
 
