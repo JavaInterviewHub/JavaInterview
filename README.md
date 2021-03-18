@@ -783,5 +783,31 @@
 
 
 
+* [编译原理](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md)
+   * [1.词法分析](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#1词法分析)
+   * [2.语法分析](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#2语法分析)
+   * [3.语义分析](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#3语义分析)
+   * [4.中间代码生成](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#4中间代码生成)
+   * [5.目标代码生成](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#5目标代码生成)
+   * [6.表格管理程序](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#6表格管理程序)
+   * [7.出错处理](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#7出错处理)
+   * [8.句型、句子、语言](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#8句型句子语言)
+   * [9.有穷自动机（有限自动机）](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#9有穷自动机有限自动机)
+   * [10.全局优化](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#10全局优化)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86.md#参考链接)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
