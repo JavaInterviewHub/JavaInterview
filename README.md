@@ -992,6 +992,24 @@
    * [20.Replica Set 和 Replication Controller之间有什么区别？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Kubernetes.md#20replica-set-和-replication-controller之间有什么区别)
 
 
+* [Maven](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md)
+   * [1.maven是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#1maven是什么)
+   * [2.使用Maven好处](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#2使用maven好处)
+   * [3.Maven的坐标和依赖](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#3maven的坐标和依赖)
+   * [4.Maven的⽣命周期](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#4maven的命周期)
+   * [5.你们项目为什么选用 Maven 进行构建？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#5你们项目为什么选用-maven-进行构建)
+   * [6.Maven 规约是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#6maven-规约是什么)
+   * [7.Maven 常用命令](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#7maven-常用命令)
+   * [8.Maven 有哪些优点和缺点](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#8maven-有哪些优点和缺点)
+   * [9.Maven 版本规则？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#9maven-版本规则)
+   * [10.对于一个多模块项目，如果管理项目依赖的版本？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#10对于一个多模块项目如果管理项目依赖的版本)
+   * [11.Maven 依赖原则？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#11maven-依赖原则)
+   * [12.如何解决 jar 冲突？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#12如何解决-jar-冲突)
+   * [13.什么是 Maven 插件？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#13什么是-maven-插件)
+   * [14.Maven依赖冲突](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#14maven依赖冲突)
+   * [15.依赖的解析机制](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#15依赖的解析机制)
+
+
 
 
 
