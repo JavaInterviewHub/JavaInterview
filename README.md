@@ -714,6 +714,20 @@
    * [11.init(ServletConfig)方法与异常](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#11initservletconfig方法与异常)
    * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Servlet.md#参考链接)
 
+* [Shiro](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md)
+   * [1.什么是shiro](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#1什么是shiro)
+   * [2.解释下Shiro的核心概念：Subject、SecurityManager、Realm](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#2解释下shiro的核心概念subjectsecuritymanagerrealm)
+   * [3.Shiro的优点](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#3shiro的优点)
+   * [4.Shiro有哪些组件？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#4shiro有哪些组件)
+   * [5.说下Authentication 身份验证的流程](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#5说下authentication-身份验证的流程)
+   * [6.Authorization 授权的方式和流程是怎样的？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#6authorization-授权的方式和流程是怎样的)
+   * [7.Cryptography 加密的过程是这样的？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#7cryptography-加密的过程是这样的)
+   * [8.Realm 域如何使用？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#8realm-域如何使用)
+   * [9.shiro拦截器的执行流程](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#9shiro拦截器的执行流程)
+   * [10.Session Manager 会话管理介绍一下](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#10session-manager-会话管理介绍一下)
+   * [参考资料](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Shiro.md#参考资料)
+
+
 
 
 
