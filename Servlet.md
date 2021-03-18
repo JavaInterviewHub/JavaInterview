@@ -1,4 +1,17 @@
-### Servlet
+## Servlet
+
+* [1.Servlet的生命周期？](#1servlet的生命周期)
+* [2.Servlet和JSP的区别？](#2servlet和jsp的区别)
+* [3.Servlet的基本架构](#3servlet的基本架构)
+* [4.什么情况下调用doGet()和doPost()？](#4什么情况下调用doget和dopost)
+* [5.页面间对象传递的方法](#5页面间对象传递的方法)
+* [6.四种会话跟踪技术](#6四种会话跟踪技术)
+* [7.Request对象的主要方法](#7request对象的主要方法)
+* [8.如何配置Servlet的初始化参数？](#8如何配置servlet的初始化参数)
+* [9.如何读取Servlet的初始化参数？](#9如何读取servlet的初始化参数)
+* [10.init(ServletConfig)方法执行次数](#10initservletconfig方法执行次数)
+* [11.init(ServletConfig)方法与异常](#11initservletconfig方法与异常)
+* [参考链接](#参考链接)
 
 #### 1.Servlet的生命周期？
 
