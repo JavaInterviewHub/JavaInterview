@@ -662,6 +662,24 @@
    * [10.你们项目中分片的实现方式是什么？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#10你们项目中分片的实现方式是什么)
    * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Mycat.md#参考链接)
 
+* [Nginx](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md)
+   * [1.请解释一下什么是 Nginx ？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#1请解释一下什么是-nginx-)
+   * [2.为什么要用Nginx？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#2为什么要用nginx)
+   * [3.Nginx怎么处理请求的？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#3nginx怎么处理请求的)
+   * [4.Nginx的优缺点？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#4nginx的优缺点)
+   * [5.Nginx应用场景？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#5nginx应用场景)
+   * [6.使用“反向代理服务器”的优点是什么?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#6使用反向代理服务器的优点是什么)
+   * [7.列举Nginx服务器的最佳用途。](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#7列举nginx服务器的最佳用途)
+   * [8.请解释Nginx如何处理HTTP请求。](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#8请解释nginx如何处理http请求)
+   * [9.在Nginx中，如何使用未定义的服务器名称来阻止处理请求?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#9在nginx中如何使用未定义的服务器名称来阻止处理请求)
+   * [10.在Nginx中如何在URL中保留双斜线?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#10在nginx中如何在url中保留双斜线)
+   * [11.ngx_http_upstream_module的作用是什么?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#11ngx_http_upstream_module的作用是什么)
+   * [12. fastcgi 与 cgi 的区别？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#12-fastcgi-与-cgi-的区别)
+   * [13. Nginx 常用命令？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#13-nginx-常用命令)
+   * [14.Nginx 常用配置？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#14nginx-常用配置)
+   * [15.请陈述stub_status和sub_filter指令的作用是什么?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#15请陈述stub_status和sub_filter指令的作用是什么)
+   * [参考链接](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Nginx.md#参考链接)
+
 
 
 
