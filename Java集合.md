@@ -1,5 +1,31 @@
 ## Java集合
 
+* [1.常见的集合有哪些？](#1常见的集合有哪些)
+* [2.常见的集合底层实现](#2常见的集合底层实现)
+* [3.HashMap与HashTable的区别？](#3hashmap与hashtable的区别)
+* [4.ConcurrentHashMap和Hashtable的区别？](#4concurrenthashmap和hashtable的区别)
+* [5.ConcurrentHashMap实现原理](#5concurrenthashmap实现原理)
+* [6.ArrayList 和 Vector 的区别？](#6arraylist-和-vector-的区别)
+* [7.ArrayList和LinkedList的区别？](#7arraylist和linkedlist的区别)
+* [8.HashMap 默认的初始化长度是多少？](#8hashmap-默认的初始化长度是多少)
+* [9.谈谈对HashMap 构造方法中初始容量、加载因子的理解](#9谈谈对hashmap-构造方法中初始容量加载因子的理解)
+* [10.Java集合框架是什么？说出一些集合框架的优点？](#10java集合框架是什么说出一些集合框架的优点)
+* [11.集合框架中的泛型有什么优点？](#11集合框架中的泛型有什么优点)
+* [12.为何Collection不从Cloneable和Serializable接口继承？](#12为何collection不从cloneable和serializable接口继承)
+* [13.为何Map接口不继承Collection接口？](#13为何map接口不继承collection接口)
+* [14.Iterator是什么？](#14iterator是什么)
+* [15.Enumeration和Iterator接口的区别？](#15enumeration和iterator接口的区别)
+* [16.Iterater和ListIterator之间有什么区别？](#16iterater和listiterator之间有什么区别)
+* [17.fail-fast与fail-safe有什么区别？](#17fail-fast与fail-safe有什么区别)
+* [18.hashCode()和equals()方法有何重要性？](#18hashcode和equals方法有何重要性)
+* [19.我们能否使用任何类作为Map的key？](#19我们能否使用任何类作为map的key)
+* [20.如何决定选用HashMap还是TreeMap？](#20如何决定选用hashmap还是treemap)
+* [21.哪些集合类提供对元素的随机访问？](#21哪些集合类提供对元素的随机访问)
+* [22.BlockingQueue是什么？](#22blockingqueue是什么)
+* [23.队列和栈是什么，列出它们的区别？](#23队列和栈是什么列出它们的区别)
+* [24.Collections类是什么？](#24collections类是什么)
+* [25.Comparable和Comparator接口有何区别？](#25comparable和comparator接口有何区别)
+
 #### 1.常见的集合有哪些？
 
 Collection接口的子接口包括：Set接口和List接口
