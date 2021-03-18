@@ -1010,6 +1010,29 @@
    * [15.依赖的解析机制](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Maven.md#15依赖的解析机制)
 
 
+* [MongoDB](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md)
+   * [1.什么是MongoDB？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#1什么是mongodb)
+   * [2.MongoDB的优势有哪些](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#2mongodb的优势有哪些)
+   * [3.什么是集合(表)？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#3什么是集合表)
+   * [4.什么是文档(记录)](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#4什么是文档记录)
+   * [5.为什么用MOngoDB？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#5为什么用mongodb)
+   * [6.在哪些场景使用MongoDB](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#6在哪些场景使用mongodb)
+   * [7.MongoDB中的命名空间是什么意思?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#7mongodb中的命名空间是什么意思)
+   * [8.MongoDB中的分片什么意思](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#8mongodb中的分片什么意思)
+   * [9.为什么要在MongoDB中使用分析器](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#9为什么要在mongodb中使用分析器)
+   * [10.MongoDB支持主键外键关系吗](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#10mongodb支持主键外键关系吗)
+   * [11.MongoDB支持哪些数据类型](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#11mongodb支持哪些数据类型)
+   * [12.为什么要在MongoDB中用"Code"数据类型](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#12为什么要在mongodb中用code数据类型)
+   * [13.为什么要在MongoDB中用"Regular Expression"数据类型](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#13为什么要在mongodb中用regular-expression数据类型)
+   * [14.为什么在MongoDB中使用"Object ID"数据类型](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#14为什么在mongodb中使用object-id数据类型)
+   * [15."ObjectID"有哪些部分组成](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#15objectid有哪些部分组成)
+   * [16.在MongoDb中什么是索引](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#16在mongodb中什么是索引)
+   * [17.在MongoDB中什么是副本集](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#17在mongodb中什么是副本集)
+   * [18.MongoDB支持存储过程吗？如果支持的话，怎么用？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#18mongodb支持存储过程吗如果支持的话怎么用)
+   * [19.如何理解MongoDB中的GridFS机制，MongoDB为何使用GridFS来存储文件？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#19如何理解mongodb中的gridfs机制mongodb为何使用gridfs来存储文件)
+   * [20.为什么MongoDB的数据文件很大？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/MongoDB.md#20为什么mongodb的数据文件很大)
+
+
 
 
 
