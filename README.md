@@ -166,8 +166,8 @@
    * [41.说一下 JVM 调优的工具？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#41说一下-jvm-调优的工具)
    * [42.JVM调优命令有哪些？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#42jvm调优命令有哪些)
    * [43.JRE、JDK、JVM 及 JIT 之间有什么不同？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#43jrejdkjvm-及-jit-之间有什么不同)
-   * [程序计数器为什么是私有的?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#程序计数器为什么是私有的)
-   * [如何判断一个常量是废弃常量 ？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#如何判断一个常量是废弃常量-)
+   * [44.程序计数器为什么是私有的?](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#44程序计数器为什么是私有的)
+   * [45.如何判断一个常量是废弃常量 ？](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#45如何判断一个常量是废弃常量-)
    * [参考资料](https://github.com/JavaInterviewHub/JavaInterview/blob/main/Java%E8%99%9A%E6%8B%9F%E6%9C%BA.md#参考资料)
 
 * [Java IO](https://github.com/JavaInterviewHub/JavaInterview/blob/main/JavaIO.md)
