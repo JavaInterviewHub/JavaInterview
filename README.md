@@ -4,7 +4,7 @@
 
 如果对于有所帮助，可以给个star。有纰漏的地方，欢迎给我们提PR。
 
-如果想获取本Repo的PDF版本，可以用微信扫描下方二维码，回复 “pdf” ，即可获取。如果二维码加载不出来，可以在微信搜索公众号 “程序员百科全书”，回复 “pdf” ，即可获取PDF版本。
+如果想获取本Repo的PDF版本，可以用微信扫描下方二维码，回复 “pdf” ，即可获取。如果二维码加载不出来，可以在微信搜索公众号 “Java面试攻略”，回复 “pdf” ，即可获取PDF版本。
 
 
 <img src="https://github.com/JavaInterviewHub/JavaInterview/blob/main/imgs/Java面试攻略.jpg"/>
